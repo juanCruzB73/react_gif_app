@@ -15,7 +15,7 @@ export const GifGrid = ({category})=>{
             {imagenes.map(imagen=>(
                 <GifGridItem 
                 key={imagen.id}
-                {...imagen}//convierte en props lo em¿lementos de imagen
+                {...imagen}//convierte en props lo en lementos de imagen
                 />
             ))
             }

@@ -1,0 +1,2 @@
+1-trazar la ruta critica
+2-empezar el testing por los componenrtes coon menos dependencias
