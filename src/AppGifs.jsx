@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { AddCategory,GifGrid } from "./components";
+
 export const AppGifs = () =>{
 
+    //onAddCategory recibe un parametro "newcategory" que cambia el valor del input
     const [categories, setCategories] = useState([])
-    const onAddCategory = (newCategory) =>{
+    const onAddCategory = (newCategory)=>{
         if(categories.includes(newCategory))return;
         setCategories([newCategory])
     }
